@@ -43,8 +43,10 @@
 </div>
 <br>
 <!-- Images -->
-<img class="img" src="images/chef.jpeg" alt="chef" width=600px>
-<img class="img" src="images/chef-sushis.jpg" alt="chef-sushis" width=600px>
+<div class="menu-img">
+	<img class="img" src="images/chef.jpeg" alt="chef" style="width:47%">
+	<img class="img" src="images/chef-sushis.jpg" alt="chef-sushis" style="width:47%">
+</div>
 <br><br>
 
 <!-- Menu -->

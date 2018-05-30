@@ -29,6 +29,8 @@ a:visited {color: #285285;}
 
 ul li {display: inline-block;}
 
+p {text-align: center}
+
 /* Main */
 .main {font-family: "Courier new";}
 
@@ -42,11 +44,12 @@ ul li {display: inline-block;}
 }
 
 /* Jumbotron */
-.j-container {
-	padding-top: 140px;
+.jumbotron-fluid {
+	padding-top: 140px !important;
 	padding-bottom: 40px;
-	padding-right: 450px;
-	padding-left: 150px;
+	padding-right: 330px !important;
+	padding-left: 130px !important;
+	position: left;
 }
 
 /* Cards */
@@ -75,11 +78,11 @@ ul li {display: inline-block;}
 	margin-left: 20px;
 }
 
-.img {margin-left: 20px}
-
 .menu {margin: 20px;}
 
-h2, ul {text-align: center}
+.menu-img {margin-left: 50px;}
+
+h2, h3, ul {text-align: center}
 
 
 /* Gallery */
@@ -92,8 +95,30 @@ h2, ul {text-align: center}
   padding: 5px;
 }
 
+.Gallery-cont {margin: 40px;}
 
+/* Location */
+.map-responsive {
+    position: relative;
+    padding-bottom: 75%; // This is the aspect ratio
+    height: 0;
+    overflow: hidden;
+    margin-left: 100px;
+    margin-top: 60px;
+}
 
+.map-responsive iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 75% !important;
+    height: 75% !important;
+    border: 0;
+}
+
+.text-content {background-color: #DDE7D0;}
+
+.text-content h3 {margin-top: 40px;}
 
 /* Contact */
 .text {
@@ -129,7 +154,6 @@ form {
 	padding-top: 50px;
 }
 
-
 /* Footer */
 footer {
 	text-align: center;
@@ -138,4 +162,8 @@ footer {
 	margin-bottom: 10px;
 	font-family: "Courier new"
 }
+
+/* Media queries */
+
+
 

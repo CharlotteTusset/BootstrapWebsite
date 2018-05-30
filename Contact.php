@@ -28,7 +28,7 @@
 </div>
 
 <div class="img-back" alt="Osaka">
-	
+
 	<!-- Text -->
 	<div class=text>
 		<p>Do you want to book a table, follow our workshops, or discover the Japanese culture? Or do you want to propose activities or share your knowledge about Japan? At Ukiyo, we always look for new ideas so don't hesitate to contact us!</p>
@@ -110,8 +110,8 @@
 	      		<input type="text" class="form-control" placeholder="Write your message">
 			</div>
 		</div>
-		<br><br><br>
-		<button id="button" type="submit" class="btn btn-light btn-lg">Send</button>
+		<br>
+		<button id="button" type="submit" class="btn btn-light btn-lg"><i class="fab fa-stack fa-telegram-plane"></i></button>
 	</form>
 </div>
 

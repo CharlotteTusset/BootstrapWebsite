@@ -26,17 +26,17 @@
 		<a class="navbar-contact" href="contact.php"><i class="fas fa-phone-square"></i> Contact</a>
 	</nav>
 </div>
-
 <!-- Home=Page1 -->
 <div id="home">
 	<div class="img-fluid">
-		<div class="j-container">
+		<div class="j-container jumbotron-fluid">
 	  		<div class="jumbotron">
 	    		<h1>Ukiyo</h1> 
 	    		<hr>
 	    		<p>Ukiyo (meaning <i>The Floating World</i>) is a new place where you will have the pleasure to taste reinvented Japanese dishes and to discover the Japanese culture in an original and peaceful way. ようこそ - Yokoso! </p> 
 	  		</div>
 		</div>	
+<br><br>
 		<!-- Two columns with two cards (former panels) -->
 		<div class="card-deck">	
 			<div class="card">
