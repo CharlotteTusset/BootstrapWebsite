@@ -172,4 +172,7 @@ footer {
 	.jumbotron-fluid {padding-right: 50px !important;}
 }
 
+@media (max-width: 600px) {
+	.socialmedia {text-align: left;}
+}
 
