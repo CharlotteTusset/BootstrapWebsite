@@ -11,4 +11,7 @@ Create 5pages-website for a restaurant:
 * Location
 * Contact  
 
-Use of HTML/CSS/Bootstrap/JS/Jquery.
+Use of HTML/CSS/Bootstrap.   
+
+
+Solo project: Japanese restaurant. 
