@@ -47,8 +47,8 @@ p {text-align: center}
 .jumbotron-fluid {
 	padding-top: 140px !important;
 	padding-bottom: 40px;
-	padding-right: 330px !important;
-	padding-left: 130px !important;
+	padding-right: 350px !important;
+	padding-left: 40px !important;
 	position: left;
 }
 
@@ -63,6 +63,7 @@ p {text-align: center}
 	text-align: justify;
 }
 
+.card-img-top {max-width: 100%}
 
 /* Menu */
 .title {
@@ -71,7 +72,7 @@ p {text-align: center}
 	margin-right: 40px;
 }
 
-.badge-menu {text-align: center;}
+.badge-menu, .labels {text-align: center;}
 
 .badge-info {
 	margin-top: 20px;
@@ -97,6 +98,8 @@ h2, h3, ul {text-align: center}
 
 .Gallery-cont {margin: 40px;}
 
+#cat {}
+
 /* Location */
 .map-responsive {
     position: relative;
@@ -119,6 +122,7 @@ h2, h3, ul {text-align: center}
 .text-content {background-color: #DDE7D0;}
 
 .text-content h3 {margin-top: 40px;}
+
 
 /* Contact */
 .text {
@@ -164,6 +168,8 @@ footer {
 }
 
 /* Media queries */
-
+@media (max-width: 1200px) {
+	.jumbotron-fluid {padding-right: 50px !important;}
+}
 
 
