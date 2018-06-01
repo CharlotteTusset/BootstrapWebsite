@@ -1,0 +1,19 @@
+{ 
+	"short_name": "Ukiyo", 
+	"name": "Ukiyo Restaurant", 
+	"display": "standalone", 
+	"background_color": "#285285", 
+	"theme_color": "#285285", 
+	"icons": [ 
+		{ 
+		"src": "https://charlottetusset.github.io/BootstrapWebsite/images/manekineko.jpg", 
+		"type": "image/jpg", 
+		"sizes": "192x192" 
+		}, 
+		{ 
+		"src": "https://charlottetusset.github.io/BootstrapWebsite/images/manekineko.jpg", 
+		"type": "image/jpg", 
+		"sizes": "512x512" 
+		} 
+	] 
+}
