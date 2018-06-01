@@ -7,7 +7,8 @@ var urlsToCache = [
   'https://charlottetusset.github.io/BootstrapWebsite/Gallery.html',
   'https://charlottetusset.github.io/BootstrapWebsite/page2.html',
   'https://charlottetusset.github.io/BootstrapWebsite/page3.html',
-  'https://charlottetusset.github.io/BootstrapWebsite/contact.html'
+  'https://charlottetusset.github.io/BootstrapWebsite/contact.html',
+  'https://charlottetusset.github.io/BootstrapWebsite/manifest.json'
 ];
 
 self.addEventListener('install', function(event) {
