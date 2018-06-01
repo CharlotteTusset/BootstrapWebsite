@@ -6,7 +6,6 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="Description" content="Put your description here.">
 
-
 	<title>Gallery</title>
 
 	<!-- Links towards Bootstrap, Font-Awesome -->
@@ -76,3 +75,17 @@
 
 <footer>Powered by Charlotte Tusset
 </footer>
+
+<script type="text/javascript">
+    if ('serviceWorker' in navigator) {
+  window.addEventListener('load', function() {
+    navigator.serviceWorker.register('sw.js').then(function(registration) {
+      // Registration was successful
+      console.log('ServiceWorker registration successful with scope: ', registration.scope);
+    }, function(err) {
+      // registration failed :(
+      console.log('ServiceWorker registration failed: ', err);
+    });
+  });
+}
+</script>
