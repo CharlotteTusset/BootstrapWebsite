@@ -13,5 +13,6 @@ Create 5pages-website for a restaurant:
 
 Use of HTML/CSS/Bootstrap.   
 
+Integration of SERVICE WORKER.
 
 Solo project: Japanese restaurant. 
