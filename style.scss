@@ -1,0 +1,174 @@
+/*RESET CSS */
+html {
+	box-sizing: border-box;
+}
+
+*, *:before, *:after {
+	box-sizing: inherit;
+	padding: 0;
+	margin: 0;
+}
+
+html, body {
+	display: block;
+	height: 100%;
+	width: 100%;
+	overflow: auto;
+	background-color: white;
+	background-size: auto;
+}
+
+ul, li, a {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+a {color: black;}
+a:visited {color: #285285;}
+
+ul li {display: inline-block;}
+
+p {text-align: center}
+
+/* Main */
+.main {font-family: "Courier new";}
+
+
+/* Main - Background image */
+.img-fluid {
+	max-width: 100%; 
+	height: auto;
+	background-image: url("images/mount-fuji-estampe.jpg");
+	background-repeat: repeat;
+}
+
+/* Jumbotron */
+.jumbotron-fluid {
+	padding-top: 140px !important;
+	padding-bottom: 40px;
+	padding-right: 350px !important;
+	padding-left: 40px !important;
+	position: left;
+}
+
+/* Cards */
+.card-deck {
+	padding-bottom: 50px;
+	padding-left: 40px;
+	padding-right: 40px;
+}
+
+.card-body {
+	text-align: justify;
+}
+
+.card-img-top {max-width: 100%}
+
+/* Menu */
+.title {
+	text-align: center;
+	margin-left: 40px;
+	margin-right: 40px;
+}
+
+.badge-menu, .labels {text-align: center;}
+
+.badge-info {
+	margin-top: 20px;
+	margin-left: 20px;
+}
+
+.menu {margin: 20px;}
+
+.menu-img {margin-left: 50px;}
+
+h2, h3, ul {text-align: center}
+
+
+/* Gallery */
+#food, #deco, #art {
+  display: flex;
+}
+
+.column {
+  flex: 33.33%;
+  padding: 5px;
+}
+
+.Gallery-cont {margin: 40px;}
+
+#cat {}
+
+/* Location */
+.map-responsive {
+    position: relative;
+    padding-bottom: 75%; // This is the aspect ratio
+    height: 0;
+    overflow: hidden;
+    margin-left: 100px;
+    margin-top: 60px;
+}
+
+.map-responsive iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 75% !important;
+    height: 75% !important;
+    border: 0;
+}
+
+.text-content {background-color: #DDE7D0;}
+
+.text-content h3 {margin-top: 40px;}
+
+
+/* Contact */
+.text {
+	text-align: center;
+	color: black;
+	padding-top: 75px;
+	padding-bottom: 50px;
+	padding-right: 100px;
+	padding-left: 100px;
+}
+
+.img-back {
+	background-image: url("images/JapanArt.jpg");
+	height: auto;
+	max-width: 100%;
+	background-repeat: no-repeat;	
+}
+
+.socialmedia {
+	list-style-type: none;
+	text-align: center;
+	padding:0;
+	word-spacing: 20px;
+}
+
+.fa-stack {color: #858D61;}
+.fa-stack:hover {color: #C32A19;}
+
+form {
+	margin-left: 30px;
+	margin-right: 30px;
+	padding-bottom: 100px;
+	padding-top: 50px;
+}
+
+/* Footer */
+footer {
+	text-align: center;
+	font-size: small;
+	margin-top: 20px;
+	margin-bottom: 10px;
+	font-family: "Courier new"
+}
+
+/* Media queries */
+@media (max-width: 1200px) {
+	.jumbotron-fluid {padding-right: 50px !important;}
+}
+
