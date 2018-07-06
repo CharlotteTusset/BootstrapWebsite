@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
 
 	<meta charset="utf-8">
@@ -23,41 +23,61 @@
 
 <!-- Navbar-->
 <div class="nav-container">
-	<nav class="navbar fixed-top navbar-light bg-light">
-		<a class="navbar-home" href="#home"><i class="fas fa-home"></i> Home</a>
-		<a class="navbar-menu" href="Menu.html"><i class="fas fa-utensils"></i> Menu</a>
-		<a class="navbar-gallery" href="Gallery.html"><i class="fas fa-images"></i> Gallery</a>
-		<a class="navbar-location" href="Location.html"><i class="fas fa-thumbtack"></i> Location</a>
-		<a class="navbar-contact" href="contact.html"><i class="fas fa-phone-square"></i> Contact</a>
+	<nav class="navbar navbar-expand-lg fixed-top navbar-light bg-light">
+		<a class="navbar-brand" href="#home"><i>Ukiyo</i></a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+ 		</button>
+ 		<div class="collapse navbar-collapse" id="navbarToggler">
+			<ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+				<li class="nav-item active">
+					<a class="navbar-home nav-link" href="#home"><i class="fas fa-home"></i> Home</a>
+				</li>
+				<li class="nav-item">
+					<a class="navbar-menu nav-link" href="Menu.html"><i class="fas fa-utensils"></i> Menu</a>
+				</li>
+				<li class="nav-item">
+					<a class="navbar-gallery nav-link" href="Gallery.html"><i class="fas fa-images"></i> Gallery</a>
+				</li>
+				<li class="nav-item">
+					<a class="navbar-location nav-link" href="Location.html"><i class="fas fa-thumbtack"></i> Location</a>
+				</li>
+				<li class="nav-item">
+					<a class="navbar-contact nav-link" href="contact.html"><i class="fas fa-phone-square"></i> Contact</a>
+				</li>
+			</ul>
+		</div>
 	</nav>
 </div>
 <!-- Home=Page1 -->
 <div id="home">
-	<div class="img-fluid">
-		<div class="j-container jumbotron-fluid">
-	  		<div class="jumbotron">
-	    		<h1>Ukiyo</h1> 
-	    		<hr>
-	    		<p>Ukiyo (meaning <i>The Floating World</i>) is a new place where you will have the pleasure to taste reinvented Japanese dishes and to discover the Japanese culture in an original and peaceful way. ようこそ - Yokoso! </p> 
-	  		</div>
-		</div>	
-<br><br>
-		<!-- Two columns with two cards (former panels) -->
-		<div class="card-deck">	
-			<div class="card">
-				<div class="card-header"><h3>News</h3></div>
-				<div class="card-body">Discover our <b>lunch menu</b> for only <b>15€</b>!<br><br>Braised and marinated spicy octopus ramen with its wheat noodles.<br>Along with a glass of Chardonnay white wine.</div>
-				<img class="card-img-bottom" src="images/food3.jpg" alt="ramen">
-			</div>
+	<div class="jumbotron j-container jumbotron-fluid">
+		<h1>Ukiyo</h1> 
+		<hr>
+		<p>Ukiyo (meaning <i>The Floating World</i>) is a new place where you will have the pleasure to taste reinvented Japanese dishes and to discover the Japanese culture in an original and peaceful way. ようこそ - Yokoso! </p> 
+	</div>	
 
-			<div class="card">
-				<div class="card-header"><h3>Events</h3></div>
-				<img class="card-img-top" src="images/matchaTea.jpg" alt="matchaTea">
-				<div class="card-body"><b>The 1st of June</b> (2-5pm): Matcha tea workshop. Join us as we welcome spring and enjoy an afternoon dedicated to Matcha tea. In partnership with the Kenryo Tea Room, you sample different varieties of Matcha, and learn about the health benefits and origin of this popular beverage.</div>
+	<div class="img-fluid">
+		<!-- Two columns with two cards (former panels) -->
+		<div class="row card-deck">	
+			<div class="col-sm-4">
+				<div class="card">
+					<div class="card-header"><h3>News</h3></div>
+					<div class="card-body">Discover our <b>lunch menu</b> for only <b>15€</b>!<br><br>Braised and marinated spicy octopus ramen with its wheat noodles.<br>Along with a glass of Chardonnay white wine.</div>
+					<img class="card-img-bottom" src="images/food3.jpg" alt="ramen">
+				</div>
+			</div>
+			<div class="col-sm-4">
+				<div class="card">
+					<div class="card-header"><h3>Events</h3></div>
+					<img class="card-img-top" src="images/matchaTea.jpg" alt="matchaTea">
+					<div class="card-body"><b>The 1st of June</b> (2-5pm): Matcha tea workshop. Join us and enjoy an afternoon dedicated to Matcha tea. In partnership with the Kenryo Tea Room, you will discover different varieties and learn about the health benefits and origin of this popular beverage.</div>
+				</div>
 			</div>
 		</div>
+	</div>
 </div>
-</div>
+
 </div>
 </body>
 
@@ -65,18 +85,18 @@
 <footer>Powered by Charlotte Tusset
 </footer>
 
-<script src="https://www.gstatic.com/firebasejs/5.0.4/firebase.js"></script>
-<script>
-  // Initialize Firebase
-  var config = {
-    apiKey: "AIzaSyBnziQTvdrR1s2FOnsMr4UGl8ua6vCkox0",
-    authDomain: "sitebootstrap-1527670404972.firebaseapp.com",
-    databaseURL: "https://sitebootstrap-1527670404972.firebaseio.com",
-    projectId: "sitebootstrap-1527670404972",
-    storageBucket: "sitebootstrap-1527670404972.appspot.com",
-    messagingSenderId: "648239664199"
-  };
-  firebase.initializeApp(config);
+<script type="text/javascript">
+    if ('serviceWorker' in navigator) {
+  window.addEventListener('load', function() {
+    navigator.serviceWorker.register('sw.js').then(function(registration) {
+      // Registration was successful
+      console.log('ServiceWorker registration successful with scope: ', registration.scope);
+    }, function(err) {
+      // registration failed :(
+      console.log('ServiceWorker registration failed: ', err);
+    });
+  });
+}
 </script>
 
 </html>

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
 
 	<meta charset="utf-8">
@@ -22,12 +22,30 @@
 
 <!-- Navbar -->
 <div class="nav-container">
-	<nav class="navbar fixed-top navbar-light bg-light">
-		<a class="navbar-home" href="index.html"><i class="fas fa-home"></i> Home</a>
-		<a class="navbar-menu" href="Menu.html"><i class="fas fa-utensils"></i> Menu</a>
-		<a class="navbar-gallery" href="Gallery.html"><i class="fas fa-images"></i> Gallery</a>
-		<a class="navbar-location" href="Location.html"><i class="fas fa-thumbtack"></i> Location</a>
-		<a class="navbar-contact" href="contact.html"><i class="fas fa-phone-square"></i> Contact</a>
+	<nav class="navbar navbar-expand-lg fixed-top navbar-light bg-light">
+		<a class="navbar-brand" href="#home"><i> Ukiyo</i></a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+ 		</button>
+ 		<div class="collapse navbar-collapse" id="navbarToggler">
+			<ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+				<li class="nav-item">
+					<a class="navbar-home nav-link" href="index.html"><i class="fas fa-home"></i> Home</a>
+				</li>
+				<li class="nav-item">
+					<a class="navbar-menu nav-link" href="Menu.html"><i class="fas fa-utensils"></i> Menu</a>
+				</li>
+				<li class="nav-item">
+					<a class="navbar-gallery nav-link" href="Gallery.html"><i class="fas fa-images"></i> Gallery</a>
+				</li>
+				<li class="nav-item">
+					<a class="navbar-location nav-link" href="Location.html"><i class="fas fa-thumbtack"></i> Location</a>
+				</li>
+				<li class="nav-item active">
+					<a class="navbar-contact nav-link" href="contact.html"><i class="fas fa-phone-square"></i> Contact</a>
+				</li>
+			</ul>
+		</div>
 	</nav>
 </div>
 
@@ -94,7 +112,7 @@
 		<br>
 		<div class="form-row">
 			<div class="col">
-	      		<input type="text" class="form-control" placeholder="Email @">
+	      		<input type="Email" class="form-control" placeholder="Email @">
 			</div>
 			<div class="col">
 	      		<input type="text" class="form-control" placeholder="Phone number">
@@ -145,3 +163,5 @@
   });
 }
 </script>
+
+</html>

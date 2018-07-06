@@ -36,26 +36,35 @@ p {
 .main {
   font-family: "Courier new"; }
 
+.nav-container a {
+  display: inline-block;
+  padding-right: 100px !important;
+  color: #35608B !important;
+}  
+
+.nav-container a:hover {
+  color: #351F19 !important;
+}
+
 /* Main - Background image */
 .img-fluid {
   max-width: 100%;
+  margin-top: -50px;
   height: auto;
   background-image: url("images/mount-fuji-estampe.jpg");
   background-repeat: repeat; }
 
-/* Jumbotron */
-.jumbotron-fluid {
-  padding-top: 140px !important;
-  padding-bottom: 40px;
-  padding-right: 350px !important;
-  padding-left: 40px !important;
-  position: left; }
+#home {margin-top: 30px}
+
+.jumbotron h1 {margin-left: 30px}
 
 /* Cards */
 .card-deck {
-  padding-bottom: 50px;
-  padding-left: 40px;
-  padding-right: 40px; }
+  padding-top: 100px;
+  padding-bottom: 100px;
+  padding-left: 20px;
+  padding-right: 20px;
+ }
 
 .card-body {
   text-align: justify; }
@@ -84,6 +93,8 @@ p {
 
 h2, h3, ul {
   text-align: center; }
+
+.badge-dark {margin-left: 10px;}
 
 /* Gallery */
 #food, #deco, #art {
@@ -165,4 +176,10 @@ footer {
   .jumbotron-fluid {
     padding-right: 50px !important; } }
 
+@media screen and (max-width: 600px) {
+  #food, #deco, #art {
+  display: flex;
+  flex-direction: column; 
+  }
+}
 /*# sourceMappingURL=style.css.map */

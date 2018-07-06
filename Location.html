@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
 
 	<meta charset="utf-8">
@@ -14,7 +14,7 @@
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
   <link rel="manifest" href="manifest.json">
 	<link rel="icon" type="image/png" href="https://charlottetusset.github.io/BootstrapWebsite/images/manekineko.jpg">
-  
+
 </head> 
 
 <body>
@@ -22,14 +22,33 @@
 
 <!-- Navbar -->
 <div class="nav-container">
-	<nav class="navbar fixed-top navbar-light bg-light">
-		<a class="navbar-home" href="index.html"><i class="fas fa-home"></i> Home</a>
-		<a class="navbar-menu" href="Menu.html"><i class="fas fa-utensils"></i> Menu</a>
-		<a class="navbar-gallery" href="Gallery.html"><i class="fas fa-images"></i> Gallery</a>
-		<a class="navbar-location" href="Location.html"><i class="fas fa-thumbtack"></i> Location</a>
-		<a class="navbar-contact" href="contact.html"><i class="fas fa-phone-square"></i> Contact</a>
-	</nav>
-</div><br><br>
+  <nav class="navbar navbar-expand-lg fixed-top navbar-light bg-light">
+    <a class="navbar-brand" href="#home"><i>Ukiyo</i></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarToggler">
+      <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+        <li class="nav-item">
+          <a class="navbar-home nav-link" href="index.html"><i class="fas fa-home"></i> Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="navbar-menu nav-link" href="Menu.html"><i class="fas fa-utensils"></i> Menu</a>
+        </li>
+        <li class="nav-item">
+          <a class="navbar-gallery nav-link" href="Gallery.html"><i class="fas fa-images"></i> Gallery</a>
+        </li>
+        <li class="nav-item active">
+          <a class="navbar-location nav-link" href="Location.html"><i class="fas fa-thumbtack"></i> Location</a>
+        </li>
+        <li class="nav-item">
+          <a class="navbar-contact nav-link" href="contact.html"><i class="fas fa-phone-square"></i> Contact</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+</div>
+<br><br>
 
 <!-- Location and adress/opening hours of restaurant / by grid -->
 <div class="Loc-container">
@@ -57,6 +76,7 @@
     	<div class="map-responsive" id="map">
     		<iframe title="Amsterdam" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJ-XArqL_hxUcRVaCzwBJt9aQ&key=AIzaSyB9ZZerHrSS7OG2ErQ9C6-jbCtIUVgPXrA"></iframe>
     	</div>
+      </div>
     </div>
   </div>
 </div>
@@ -79,3 +99,5 @@
   });
 }
 </script>
+
+</html>

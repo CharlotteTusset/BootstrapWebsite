@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
 
 	<meta charset="utf-8">
@@ -21,12 +21,30 @@
 
 <!-- Navbar -->
 <div class="nav-container">
-	<nav class="navbar fixed-top navbar-light bg-light">
-		<a class="navbar-home" href="index.html"><i class="fas fa-home"></i> Home</a>
-		<a class="navbar-menu" href="Menu.html"><i class="fas fa-utensils"></i> Menu</a>
-		<a class="navbar-gallery" href="Gallery.html"><i class="fas fa-images"></i> Gallery</a>
-		<a class="navbar-location" href="Location.html"><i class="fas fa-thumbtack"></i> Location</a>
-		<a class="navbar-contact" href="contact.html"><i class="fas fa-phone-square"></i> Contact</a>
+	<nav class="navbar navbar-expand-lg fixed-top navbar-light bg-light">
+		<a class="navbar-brand" href="#home"><i>Ukiyo</i></a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+ 		</button>
+ 		<div class="collapse navbar-collapse" id="navbarToggler">
+			<ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+				<li class="nav-item">
+					<a class="navbar-home nav-link" href="index.html"><i class="fas fa-home"></i> Home</a>
+				</li>
+				<li class="nav-item active">
+					<a class="navbar-menu nav-link" href="Menu.html"><i class="fas fa-utensils"></i> Menu</a>
+				</li>
+				<li class="nav-item">
+					<a class="navbar-gallery nav-link" href="Gallery.html"><i class="fas fa-images"></i> Gallery</a>
+				</li>
+				<li class="nav-item">
+					<a class="navbar-location nav-link" href="Location.html"><i class="fas fa-thumbtack"></i> Location</a>
+				</li>
+				<li class="nav-item">
+					<a class="navbar-contact nav-link" href="contact.html"><i class="fas fa-phone-square"></i> Contact</a>
+				</li>
+			</ul>
+		</div>
 	</nav>
 </div>
 <br><br><br>
@@ -37,14 +55,6 @@
 	<p>At Ukiyo, we are concerned of what you have on your plate. We guarantee you fresh and organic food, as well as traceable. As far as possible, we get our food from small producers while preserving the true Japanese cooking traditions.<br>召上がれ - Meshiagare.</p>
 </div>
 
-<!-- Badges -->
-<div class="badge-menu">
-	<a href="#Starters" class="badge badge-info">Starters</a>
-	<a href="#MainCourses" class="badge badge-info">Main courses</a>
-	<a href="#Desserts" class="badge badge-info">Desserts</a>
-	<a href="#Drinks" class="badge badge-info">Drinks</a>
-</div>
-<br>
 <!-- Images -->
 <div class="menu-img">
 	<img class="img" src="images/chef.jpeg" alt="chef" style="width:47%">
@@ -58,42 +68,42 @@
 		<div class="col" id="Starters">
 			<h2>Starters</h2>
 			<ul class="list-group">
-			  <li class="list-group-item">Spicy wakame</li>
-			  <li class="list-group-item">Steamed edamame</li>
-			  <li class="list-group-item">Tempura schrimps</li>
-			  <li class="list-group-item">Miso Soup</li>
-			  <li class="list-group-item">Chef-inspired gyozas (6)</li>
-			  <li class="list-group-item">Chef-inspired maki (6)</li>
-			  <li class="list-group-item">Karaage chicken</li>
+			  <li class="list-group-item">Spicy wakame<span class="badge badge-pill badge-dark">3€</span></li>
+			  <li class="list-group-item">Steamed edamame<span class="badge badge-pill badge-dark">3€</span></li>
+			  <li class="list-group-item">Tempura schrimps<span class="badge badge-pill badge-dark">6€</span></li>
+			  <li class="list-group-item">Miso Soup<span class="badge badge-pill badge-dark">3€</span></li>
+			  <li class="list-group-item">Chef-inspired gyozas (6)<span class="badge badge-pill badge-dark">10€</span></li>
+			  <li class="list-group-item">Chef-inspired maki (6)<span class="badge badge-pill badge-dark">10€</span></li>
+			  <li class="list-group-item">Karaage chicken<span class="badge badge-pill badge-dark">10€</span></li>
 			</ul>
 		</div>
 		<div class="col" id="MainCourses">
 			<h2>Main courses</h2>
 			<ul class="list-group">
-			  <li class="list-group-item">Sea Donburi</li>
-			  <li class="list-group-item">Teriyaki Beef</li>
-			  <li class="list-group-item">Pork Ramen</li>
-			  <li class="list-group-item">Veggie Udon</li>
-			  <li class="list-group-item">Mix of sushis (12)</li>
-			  <li class="list-group-item">Surprise of the Chef</li>
+			  <li class="list-group-item">Sea Donburi<span class="badge badge-pill badge-dark">18€</span></li>
+			  <li class="list-group-item">Teriyaki Beef<span class="badge badge-pill badge-dark">16€</span></li>
+			  <li class="list-group-item">Pork Ramen<span class="badge badge-pill badge-dark">16€</span></li>
+			  <li class="list-group-item">Veggie Udon<span class="badge badge-pill badge-dark">15€</span></li>
+			  <li class="list-group-item">Mix of sushis (12)<span class="badge badge-pill badge-dark">18€</span></li>
+			  <li class="list-group-item">Surprise of the Chef<span class="badge badge-pill badge-dark">18€</span></li>
 			</ul>
 		</div>
 		<div class="col" id="Desserts">
 			<h2>Desserts</h2>
 			<ul class="list-group">
-			  <li class="list-group-item">Mochi</li>
+			  <li class="list-group-item">Mochi<span class="badge badge-pill badge-dark">6€</span></li>
 			</ul>
 		</div>
 		<div class="col" id="Drinks">
 			<h2>Drinks</h2>
 			<ul class="list-group">
-			  <li class="list-group-item">Water</li>
-			  <li class="list-group-item">Homemade Lemonade</li>
-			  <li class="list-group-item">Ginger Kombucha</li>
-			  <li class="list-group-item">Selection of Japanese tea</li>
-			  <li class="list-group-item">Saké</li>
-			  <li class="list-group-item">Asahi beer</li>
-			  <li class="list-group-item">Selection of wines</li>
+			  <li class="list-group-item">Water<span class="badge badge-pill badge-dark">1.5€</span></li>
+			  <li class="list-group-item">Homemade Lemonade<span class="badge badge-pill badge-dark">2€</span></li>
+			  <li class="list-group-item">Ginger Kombucha<span class="badge badge-pill badge-dark">3€</span></li>
+			  <li class="list-group-item">Selection of Japanese tea<span class="badge badge-pill badge-dark">2€</span></li>
+			  <li class="list-group-item">Saké<span class="badge badge-pill badge-dark">6€</span></li>
+			  <li class="list-group-item">Asahi beer<span class="badge badge-pill badge-dark">5€</span></li>
+			  <li class="list-group-item">Selection of wines<span class="badge badge-pill badge-dark"></span></li>
 			</ul>
 		</div>	
 	</div>
@@ -123,3 +133,5 @@
   });
 }
 </script>
+
+</html>
