@@ -29,6 +29,6 @@ Fully responsive.
 
 ### Screenshots
 
-![Home page](images/Screen Shot 2018-07-13 at 12.02.36.png)
-![Contact responsive](images/Screen Shot 2018-07-13 at 12.03.13.png)  
+![Home page](images/HomepageSS.png)  
+![Contact responsive](images/ContactSS.png)  
 
