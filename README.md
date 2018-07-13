@@ -1,18 +1,34 @@
-README.md
+# Restaurant website / UKIYO  
 
-Project realised during the **BECODE.org** training. 
+## [Instructions](https://github.com/becodeorg/Johnson2/tree/master/projets/Restaurant_Bootstrap)
 
-From 28th of May until the 31st of May. 
+Project realised during **BECODE.org** training (Team Johnson II). 
+From 28th of May until the 31st of May (+ modifications in July)
 
-Create 5pages-website for a restaurant:  
+Create a 5pages-website for a restaurant:  
 * Home
 * Menu
 * Gallery
 * Location
 * Contact  
 
-Use of HTML/CSS/Bootstrap.   
+To use:
+* HTML
+* CSS
+* BOOTSTRAP framework
+* +: Integration of SERVICE WORKER.
+* Page 404
 
-Integration of SERVICE WORKER.
 
-Solo project: Japanese restaurant. 
+## Project: UKIYO
+
+Solo project: *Japanese restaurant*. 
+
+Fully responsive. 
+
+
+### Screenshots
+
+![Home page](images/Screen Shot 2018-07-13 at 12.02.36.png)
+![Contact responsive](images/Screen Shot 2018-07-13 at 12.03.13.png)  
+
